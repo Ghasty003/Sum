@@ -13,36 +13,22 @@ function show(){
 
     let y = document.calculator.result2.value;
 
-    let z = document.calculator.result4.value;
+    let z = document.calculator.resultt.value;
 
     let ree = document.calculator.result3;
+
+    
     
     if(x>=600 && y >=7){
-        ree.value = 'Too Large';
+         ree.value = 'Too Large';
     }
 
-    else if(y>10){
-        ree.value = 'Power of n too large';
+     else if(y>10){
+         ree.value = 'Power of n too large';
     }
 
-    else if(x>1000){
+     else if(x>1000){
         ree.value = 'Upper index too large';
-    }
-
-    else if(!x && !y && !z ){
-        ree.value = 'Input Something'
-    }
-
-    else if(!x && !y){
-        ree.value = 'Input Something'
-    }
-
-    else if(!y && !z){
-        ree.value = 'Input Something'
-    }
-
-    else if(!x && !z){
-        ree.value = 'Input Something'
     }
 
     else if(!x){
@@ -59,9 +45,11 @@ function show(){
 
 
     else{
-        for(let i = z; i<= x; i++){
+        for(let i = +z; i <= +x; i++){
             sum += Math.pow(i,y);
         }
+
         ree.value = sum;
     }
+
 }
