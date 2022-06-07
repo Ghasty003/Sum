@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #DD5E89;
+    background: -webkit-linear-gradient(to right, #f7bb97, #dd5e89);
+    background: linear-gradient(to right, #f7bb97, #dd5e89);
+}
+
+form{
+    background-color: #fc354c;
+    background: -webkit-linear-gradient(to right, #0abfbc, #fc354c);
+    background: linear-gradient(to right, #0abfbc, #fc354c);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.sum{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+input{
+    width: 80px;
+}
+
+.spann{
+    font-size: 50px;
+}
+
+.inpp{
+    width: 20px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.equal{
+    font-size: 20px;
+}
+
+.inpp{
+    width: 30px;
+}
+
+.n{
+    font-size: 20px;
+}
+
+.sty{
+    width: 190px;
+}
+
+.parent-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-par{
+    position: absolute;
+    top: 0;
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    animation-name: firstt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstt{
+    form{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+#btn{
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #dd5e89;
+    background-color: rgb(181, 136, 226);
+}
+
+#btn:hover{
+    background-color: #DD5E89;
+}
+
+#btn:active{
+    box-shadow: 0 3px;
+    transform: translateY(4px);
+}
+
+.second{
+    background: #FEAC5E;
+    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px
+}
+
+.second h2{
+    font-size: 30px;
+    font-family: 'Asset' ;
+}
+
+.second p{
+    padding: 20px;
+    font-family: 'Sofia';
+}
+
+footer{
+    background: #D38312;
+    background: -webkit-linear-gradient(to top, #A83279, #D38312);
+    background: linear-gradient(to top, #A83279, #D38312); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    height: 200px;
+}
+
+footer p{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Sofia';
+}
+
+.fa{
+    padding: 10px;
+    font-size: 18px;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+
+.fa-whatsapp{
+    background: rgb(51, 215, 51);
+    color: white;
+}
+
+.lastt{
+    display: flex;
+}
+
+.copy{
+    font-size: 25px;
+}
+
+.emoji{
+    font-size: 20px;
+}
+
+@media all and (max-width:560px) {
+    .second h2{
+        font-size: 22px;
+    }
+}
